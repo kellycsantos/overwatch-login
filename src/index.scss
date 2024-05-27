@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+@font-face {
+  font-family: "Hero";
+  src: url('./assets/font/Even\ Stevens.ttf');
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body{
+  font-size: 16px;
+  h1,h2,h3{
+    font-family: 'Hero';
+  }
+
+}
+
+input{
+  border: 1px solid red;
+}
